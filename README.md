@@ -30,6 +30,9 @@ __merge__ : fusionne 2 historiques
 __rebase__: concerve les deux historiques... ?
     $ git merge dev
 
+## Notes supplémentaires
+
+
 # Notes
 ## Pratiques
 Faire un **pull avant tout push** sur des projets en équipe puisque le dépot peut avoir été modifié avant sa dernier version du dépot.
