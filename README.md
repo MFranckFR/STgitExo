@@ -27,8 +27,13 @@
 
 ## Fusion d'une branche sur l'autre
 __merge__ : fusionne 2 historiques
+
 __rebase__: concerve les deux historiques... ?
-    $ git merge dev
+    $ git branch  # verifier sur quelle branche sommes-nous
+    $ git pull  # récupération de la dernière version
+    $ git merge dev # fusion... conflit ?
+
+## Régler les conflits avec gitmergetool
 
 ## Notes supplémentaires
 
