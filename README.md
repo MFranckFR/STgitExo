@@ -22,4 +22,14 @@
     $ git branch  # visualisation des branches avec indication de la branche courante
     $ git checkout dev  # changement de branche
     $ git commit -m "Creation d'un branche de dev"
-    
+    $ git push -u origin dev
+    # git branch --set-upstream-to=repository/branche_distante ma_branche_locale # Permet de suivre le lien entre une branche local et distante. Syntaxe depuis git 1.8 avec "ma_brancheè_locale" en option.
+
+## Fusion d'une branche sur l'autre
+__merge__ : fusionne 2 historiques
+__rebase__: concerve les deux historiques... ?
+    $ git merge dev
+
+# Notes
+## Pratiques
+Faire un **pull avant tout push** sur des projets en équipe puisque le dépot peut avoir été modifié avant sa dernier version du dépot.
